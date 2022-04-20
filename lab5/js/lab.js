@@ -6,17 +6,17 @@
 // @since  2022.4.8
 
 // Define Variables
-make = "Ford";
-model = "Taurus";
-color = "Rusty";
-year = 1995;
+var make = "Ford";
+var model = "Taurus";
+var color = "Rusty";
+var year = 1995;
 
 // Calculate
 age = 2022 - year;
 
 // Output
-document. writeln("Make:" + make + "<br>");
-document. writeln("Model:" + model + "<br>");
-document. writeln("Color:" + color + "<br>");
-document. writeln("Year:" + year + "<br>");
-document. writeln("Age:" + age + "<br>");
+document.writeln("Make:" + make + "<br>");
+document.writeln("Model:" + model + "<br>");
+document.writeln("Color:" + color + "<br>");
+document.writeln("Year:" + year + "<br>");
+document.writeln("Age:" + age + "<br>");
