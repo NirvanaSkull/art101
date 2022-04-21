@@ -6,7 +6,7 @@
 // @since  2022.4.8
 
 // Define Variables
-var myMainRide = {
+myMainRide = {
     make : "Ford",
     model : "Taurus",
     color : "Rusty",
@@ -16,7 +16,7 @@ var myMainRide = {
     }
 }
 
-var myTransport = ["Ford Taurus", "Bike", "Ride from friedns", "Lime Scooter"]
+myTransport = ["Ford Taurus", "Bike", "Ride from friends", "Lime Scooter"]
 
 
 // output
