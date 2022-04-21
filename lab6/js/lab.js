@@ -18,9 +18,6 @@ var myMainRide = {
 
 var myTransport = ["Ford Taurus", "Bike", "Ride from friedns", "Lime Scooter"]
 
-console.log("Kind of transportion I use:", myTransport);
-
-console.log("My Main Ride:", myMainRide);
 
 // output
 document.writeln("Kinds of transportion I use: ", myTransport, "</br>")
