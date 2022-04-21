@@ -6,9 +6,7 @@
 // @since  2022.4.8
 
 // Define Variables
-myTransport = ["Ford Taurus", "Bike", "Ride from friends", "Lime Scooter"];
-
-myMainRide = {
+var myMainRide = {
     make : "Ford",
     model : "Taurus",
     color : "Rusty",
@@ -18,8 +16,13 @@ myMainRide = {
     }
 }
 
+var myTransport = ["Ford Taurus", "Bike", "Ride from friedns", "Lime Scooter"]
+
+console.log("Kind of transportion I use:", myTransport);
+
+console.log("My Main Ride:", myMainRide);
 
 // output
-document.writeln("Kinds of transportion I use: ", myTransport, "</br>")
-document.writeln("My Main Ride: <pre>",
-  JSON.stringify (myMainRide, null, '\t'), "</pre>";
+document.writeln("Kinds of transportion I use: ", myTransport, "<br>")
+
+document.writeln("My Main Ride: <pre>", JSON.stringify(myMainRide, null, '\t') )
