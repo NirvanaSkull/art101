@@ -6,17 +6,18 @@
 // @since  2022.4.8
 
 // Define Variables
-var make = "Ford";
-var model = "Taurus";
-var color = "Rusty";
-var year = 1995;
+var myMainRide = {
+    make : "Ford",
+    model : "Taurus",
+    color : "Rusty",
+    year : 1995,
+    age : function() {
+    return 2019 - age;
+    }
+}
 
-// Calculate
-age = 2022 - year;
+myTransport = ["Ford Taurus", "Bike", "Ride from friedns", "Lime Scooter"]
 
-// Output
-document.writeln("Make:" + make + "<br>");
-document.writeln("Model:" + model + "<br>");
-document.writeln("Color:" + color + "<br>");
-document.writeln("Year:" + year + "<br>");
-document.writeln("Age:" + age + "<br>");
+console.log("Kind of transportion I use:", myTransport);
+
+console.log("My Main Ride:", myMainRide);
