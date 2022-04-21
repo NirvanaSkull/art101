@@ -6,6 +6,8 @@
 // @since  2022.4.8
 
 // Define Variables
+myTransport = ["Ford Taurus", "Bike", "Ride from friends", "Lime Scooter"];
+
 myMainRide = {
     make : "Ford",
     model : "Taurus",
@@ -15,8 +17,6 @@ myMainRide = {
     return 2019 - age;
     }
 }
-
-myTransport = ["Ford Taurus", "Bike", "Ride from friends", "Lime Scooter"]
 
 
 // output
