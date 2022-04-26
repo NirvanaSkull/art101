@@ -18,4 +18,6 @@ function sortUserName() {
   return nameSorted
 }
 
-document.writeln("Oh hey, I've fixed you name: ", sortUserName(), "</br>");
+document.writeln("Here's your sorted name: ", sortUserName(), "</br>");
+document.writeln("And oh hey, I fixed your name." "</br>");
+document.writeln("Your new one is above" "</br>");
