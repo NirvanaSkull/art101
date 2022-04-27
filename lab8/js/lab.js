@@ -15,14 +15,13 @@ console.log("Is 1 even? ", isEven(1))
 console.log("Is 1 even? ", isEven(2))
 
 array = [100, 81, 4,16, 42, 144, 10000]
-console.log("My array", array);
+document.writeln("My array", array, "</br>");
 
 var result = array.map(isEven);
 //Should return
-console.log("Test of evenness of array:", result);
+document.writeln("Evenness of array:", result, "</br>");
 
 var result = array.map(function(x){
   return x ** 0.5;
 })
-
-console.log("Squareroot of array:", result);
+document.writeln("Squareroot of array:", result, "</br>");
