@@ -19,6 +19,6 @@ function sortUserName() {
 }
 
 document.writeln("Here's your sorted name: ", sortUserName(), "</br>");
-document.writeln("</br>") 
+document.writeln("</br>")
 document.writeln("And oh hey, I fixed your name.", "</br>");
 document.writeln("Your new one is above");
