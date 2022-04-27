@@ -26,6 +26,6 @@ var result = array.map(function(x){
 })
 document.writeln("Squareroot of array:", result, "</br>");
 
-document.writeln("My array", array, "</br>");
-document.writeln("Evenness of array:", result, "</br>");
-document.writeln("Squareroot of array:", result, "</br>");
+document.writeln("My array", array);
+document.writeln("Evenness of array:", result);
+document.writeln("Squareroot of array:", result);
