@@ -41,8 +41,13 @@ body {
 }
 
 div {
-  color: cyan;
-  font-size:100%;
+  font-family:"comic sans";
+  text-indent:20px;
+  margin-left:5px;
+  color: #00ffff;
+  background-image: linear-gradient(to left, red, violet, black, green, cyan, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 img{filter: saturate(10%)} ;
