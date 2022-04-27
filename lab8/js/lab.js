@@ -25,3 +25,7 @@ var result = array.map(function(x){
   return x ** 0.5;
 })
 document.writeln("Squareroot of array:", result, "</br>");
+
+document.writeln("My array", array, "</br>");
+document.writeln("Evenness of array:", result, "</br>");
+document.writeln("Squareroot of array:", result, "</br>");
