@@ -40,8 +40,9 @@ body {
   font-size: 20px;
 }
 
-output {
-
+div {
+  color: cyan;
+  font-size:100%;
 }
 
 img{filter: saturate(10%)} ;
