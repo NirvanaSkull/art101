@@ -6,11 +6,12 @@
 // @since  2022.4.8
 
 
-var outputEl = document.getElementById()
-var new1El = document.createElementById("p")
-new1El.id = "p"
-new1El.innerHTML = "q"
+var targetEl = document.getElementById("content");
+var new1El = document.createElement("button");
+targetEl.appendChild(new1El);
+targetEl.innerHTML = ("press me");
 
-var new2El = document.createElementById("b")
-new2El.id = "b"
-new2El.innerHTML = "d"
+var targetEl = document.getElementById("content");
+var new1El = document.createElement("button");
+targetEl.appendChild(new1El);
+targetEl.innerHTML = ("press Him");
