@@ -26,26 +26,6 @@ document.writeln("Your new one is above");
 
 
 
-
-
-var button = document.getElementById('my-button');
-button.addEventListener('click', function() {
-    inputValue = document.getElementById('my-input').value;
-    document.writeln("You input:", inputValue);
-});
-
-
-var button = document.getElementById('my-button');
-
-function sayMyName(){
-	var name = prompt('What is your name');
-	var h1 = document.querySelector('h1');
-	h1.innerText = "Hello " + name;
-}
-
-button.addEventListener('click', sayMyName);
-
-
 var buttonEl = document.getElementById('my-button1');
 buttonEl.addEventListener('click', function() {
 	alert("You Been Redirected.");
