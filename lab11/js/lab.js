@@ -27,3 +27,9 @@ $("button4").click(function(){
 					  		// action goes here!!
 								$("#special").text('');
 						});
+
+						$("button5").click(function(){
+											  		// action goes here!!
+
+             $("button1").css("color 'red'");
+												});
