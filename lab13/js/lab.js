@@ -17,9 +17,10 @@
      } else if (i%5 == 0) {
          document.write("Buzz");
      } else if (i%7 == 0) {
-         document.write("Buzz");
+         document.write("Boom");
+
      } else {
-         document.write(i);
+         document.write("Bang");
      }
  }
 
