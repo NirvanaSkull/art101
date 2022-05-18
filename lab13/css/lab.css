@@ -1,3 +1,21 @@
+
+
+p{
+  font-family:"comic sans";
+  text-indent:20px;
+  margin-left:10px;
+}
+
+#content {
+  background-color:#cccccc ;
+  width:600px;
+  min-height:300px;
+  padding:10px;
+  margin:10px;
+  border:solid 1px #444444;
+  font-size: 20px;
+}
+
 h1{
   color:#FF0000;
   font-size:120%;
@@ -16,18 +34,6 @@ h3{
   font-size:120%;
 }
 
-p{
-  font-family:"comic sans";
-  text-indent:20px;
-  margin-left:5px;
-  color: #00ffff;
-  background-image: linear-gradient(to left, red, violet, black, green, cyan, orange, red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-}
-
-
 
 body {
   background-color:#000000 ;
@@ -40,51 +46,8 @@ body {
   font-size: 20px;
 }
 
-div {
-  font-family:"comic sans";
-  text-indent:20px;
-  margin-left:5px;
-  color: #00ffff;
-  background-image: linear-gradient(to left, red, violet, black, green, cyan, orange, red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#output.cols {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
 }
-
-img{filter: saturate(10%)} ;
-
-
-button {
-    appearance: auto;
-    writing-mode: horizontal-tb !important;
-    font-style: ;
-    font-variant-ligatures: ;
-    font-variant-caps: ;
-    font-variant-numeric: ;
-    font-variant-east-asian: ;
-    font-weight: ;
-    font-stretch: ;
-    font-size: ;
-    font-family: ;
-    text-rendering: auto;
-    color: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    box-sizing: border-box;
-    background-color: "black"));
-    margin: 0em;
-    padding: 1px 6px;
-    border-width: 1px;
-    border-style: outset;
-    border-color: buttonborder;
-    border-image: initial;
-}
-
-output {}
