@@ -11,16 +11,16 @@
 
  for (i=1; i <= 100; i++) {
      if (i%15 == 0) {
-         document.write("FizzBuzz");
+         document.write("</p>" + "FizzBuzz" + "</p>");
      } else if (i%3 == 0) {
-         document.write("Fizz");
+         document.write("</p>" + "Fizz" + "</p>");
      } else if (i%5 == 0) {
-         document.write("Buzz");
+         document.write("</p>" + "Buzz" + "</p>");
      } else if (i%7 == 0) {
-         document.write("Boom");
+         document.write("</p>" + "Boom" + "</p>");
 
      } else {
-         document.write("Bang");
+         document.write("</p>" + "Bang" + "</p>");
      }
  }
 
