@@ -7,7 +7,18 @@
 
 // Define Variables
 
-$("#activate").click(function(){
+
+
+
+$("#api-button").click(doAPIStuff);
+
+function putTextOnPage(text){
+  $("#output").html(text);
+}
+
+function doAPIStuff() {
+  console.log("Doing API Stuff");
+
 
 $.ajax({
     // The URL for the request (from the api docs)
@@ -17,7 +28,7 @@ $.ajax({
             // here is where any data required by the api
             //   goes (check the api docs)
             id: 123,
-            api_key: "activate",
+            api_key: "blahblahblah",
           },
     // Whether this is a POST or GET request
     type: "GET",
@@ -35,4 +46,12 @@ $.ajax({
         document.write("Error:", textStatus, errorThrown);
     }
 })
+
+.fail(function( xhr, status, errorThrown ) {
+  console.log("Failure.");
+  putTextOnPage(errorThrown + " Status:" + status);
+  //console.log(errorThrown + " Status:" + status );
+})
+console.log("Asynchronously doing the next thing.");
+
 }
