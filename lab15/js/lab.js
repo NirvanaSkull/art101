@@ -9,7 +9,7 @@
 
 
 
-var endpoint = "http://numbersapi.com/random/date";
+var endpoint = "https://worldwind.arc.nasa.gov/worldweather/";
 
 function getAjax() {
   $.ajax({
