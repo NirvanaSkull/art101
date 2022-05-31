@@ -7,28 +7,28 @@
 
 // Define Variables
 
-var endpoint = "https://api.nasa.gov/planetary/apod";
+var endpoint = "https://xkcd.com/info.0.json";
 
 function getAjax() {
   $.ajax({
     url: endpoint,
     type: "GET",
-    data: {
-      api_key: "UKRYndsS901ogikFzmQ07AQXjJy7g4bHvxAkZoU4",
+    comicObj: {
+      api_key:"",
       count:1
     }
   })
 .done(function(data){
   console.log("worked!");
-  var firstAPOD = data[0];
-  console.log(firstAPOD);
-  var title = firstAPOD.title;
-  var descr = firstAPOD.explanation;
-  var imgUrl = firstAPOD.url;
-console.log(title, descr, imgUrl);
+  var comicObj = data[0];
+  console.log(comicObj);
+  var title = data.title;
+  var alt = data.alt;
+  var img = data.img;
+console.log(title, alt, img);
 $("#output").append("<h3>"+ title + "</h3>");
-$("#output").append("<img src= " + imgUrl + ">");
-$("#output").append("<p>" + descr + "</p>");
+$("#output").append("<img src= " + img + ">");
+$("#output").append("<p>" + alt + "</p>");
 })
 
 .fail(function(request, error){
